@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+  <script src="../system.js"></script>
+
+  <script>
+    const hello = 'hello';
+    const template = params => html`<h1>${params.hello}</h1>`;
+    const MyCoolProgram = system.program('my-cool-program', document.body, template);
+    MyCoolProgram.render({hello});
+    console.log(system.windowManager);
+  </script>
+</html>

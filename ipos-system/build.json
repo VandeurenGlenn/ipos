@@ -1,0 +1,16 @@
+{
+  "name": "ipos-system",
+  "entry": ["src/index.js"],
+  "dependencies": {
+    "backed": "0.13.0",
+    "custom-html-tag": "^1.0.0",
+    "custom-renderer": "^1.0.0",
+    "custom-renderer-mixin": "^1.0.1",
+    "custom-svg-icon": "^0.10.2",
+    "custom-svg-iconset": "^0.9.1",
+    "extsprintf": "^1.3.0",
+    "little-pubsub": "^0.2.0",
+    "ms": "^2.0.0",
+    "uuid": "^3.2.1"
+  }
+}

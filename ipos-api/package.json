@@ -1,0 +1,13 @@
+{
+  "name": "ipos-api",
+  "version": "0.1.0",
+  "description": "Default API used in IPOS",
+  "main": "index.js",
+  "repository": "https://github.com/vandeurenglenn/ipos-api",
+  "author": "Iondependent",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "socket-request-client": "^0.3.0"
+  }
+}

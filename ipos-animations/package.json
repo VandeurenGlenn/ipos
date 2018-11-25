@@ -1,0 +1,10 @@
+{
+  "name": "ipos-animations",
+  "version": "0.1.0",
+  "description": "Default Animations used in IPOS",
+  "main": "index.js",
+  "repository": "https://github.com/vandeurenglenn/ipos-animations",
+  "author": "Iondependent",
+  "license": "MIT",
+  "private": false
+}

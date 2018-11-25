@@ -1,0 +1,13 @@
+{
+  "name" : "My Kiosk App",
+  "version" : "1.0",
+  "kiosk_enabled" : true,
+  "kiosk_only" : true,
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "fullscreen",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": null,
+  "splash_pages": null
+}

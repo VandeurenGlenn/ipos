@@ -1,0 +1,37 @@
+{
+  "name": "ipos-desktop",
+  "version": "0.1.0",
+  "description": "Interplanetary os desktop",
+  "main": "index.js",
+  "module": "dist/index.module.js",
+  "browser": "dist/index.browser.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server --port=2222",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "audio-decode": "^1.4.0",
+    "audio-loader": "^1.0.3",
+    "audio-play": "^2.2.0",
+    "chokidar": "^2.0.4",
+    "custom-svg-icon": "^0.9.0-preview.1",
+    "custom-svg-iconset": "^0.9.1",
+    "download": "^7.0.0",
+    "drivelist": "^6.2.5",
+    "express": "^4.16.3",
+    "id3js": "^1.1.3",
+    "lame": "^1.2.4",
+    "little-pubsub": "^0.2.0",
+    "merge-stream": "^1.0.1",
+    "musicmetadata": "^2.0.5",
+    "opn": "^5.3.0",
+    "pause-stream": "^0.0.11",
+    "sharp": "^0.20.5",
+    "socket-request-server": "^0.2.2",
+    "speaker": "^0.4.1"
+  },
+  "devDependencies": {
+    "rollup": "^0.59.4"
+  }
+}

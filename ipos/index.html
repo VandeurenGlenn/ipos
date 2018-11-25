@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>IPOS</title>
+    <style media="screen">
+      html, body {
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        overflow: hidden;
+        z-index: 0;
+        font-family: 'roboto';
+      }
+    </style>
+  </head>
+  <body>
+    <system-icons></system-icons>
+    <ipos-desktop>
+      <window-manager slot="window-manager"></window-manager>
+      <ipos-launcher slot="launcher"></ipos-launcher>
+    </ipos-desktop>
+    <boot-animation></boot-animation>
+
+    <script>
+      const exports = {};
+    </script>
+    <script type="module" defer>
+      import '../packages/ipos-system.js';
+      // import '../ipos-system/index.js';
+      import '../packages/ipos-animations.js';
+      import '../packages/ipos-desktop.js';
+    </script>
+  </body>
+</html>
