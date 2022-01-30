@@ -8,6 +8,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "socket-request-client": "^0.3.0"
+    "socket-request-client": "^0.8.1"
   }
 }
