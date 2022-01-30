@@ -6,6 +6,6 @@
   "author": "Glenn Vandeuren",
   "license": "MIT",
   "dependencies": {
-    "custom-select-mixins": "^0.11.3"
+    "custom-select-mixins": "^0.13.0"
   }
 }
