@@ -14,7 +14,7 @@
     "audio-decode": "^1.4.0",
     "audio-loader": "^1.0.3",
     "audio-play": "^2.2.0",
-    "chokidar": "^2.0.4",
+    "chokidar": "^2.1.8",
     "custom-svg-icon": "^0.9.0-preview.1",
     "custom-svg-iconset": "^0.9.1",
     "download": "^7.0.0",
