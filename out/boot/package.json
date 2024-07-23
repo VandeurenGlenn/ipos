@@ -11,7 +11,7 @@
     "build": "rollup -c"
   },
   "dependencies": {
-    "audio-decode": "^1.4.0",
+    "audio-decode": "^2.0.0",
     "audio-loader": "^1.0.3",
     "audio-play": "^2.2.0",
     "chokidar": "^2.0.4",
